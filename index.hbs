@@ -27,8 +27,8 @@
         {{#foreach posts}}
         <article class="{{post_class}}">
           <div class="post-header">
-            <span class="post-meta"><time datetime="{{date format='DD. MMM, YYYY'}}">{{date format="DD. MMM, YYYY"}}</time>{{#if tags}} on {{tags}}{{/if}}</span>
             <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+            <span class="post-meta"><time datetime="{{date format='DD. MMM, YYYY'}}">{{date format="DD. MMM, YYYY"}}</time>{{#if tags}} on {{tags}}{{/if}}</span>
           </div>
           <section class="post-excerpt">
             <p>{{excerpt}} &hellip;</p>
